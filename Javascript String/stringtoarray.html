@@ -1,0 +1,17 @@
+<html><title>Split the  String</title>
+</head>
+<br><br>
+    <body>
+        Enter the string :<input type="text" id="text1"><br><br><br>
+        <button onClick="split()">String to Array </button>
+        <span id="demo"></span>
+</body>
+</html>
+<script>
+    function split(){
+var result=document.getElementById("text1").value;
+output=result.split('');
+document.getElementById("demo").innerHTML=output;
+console.log(output);
+    }
+</script>
